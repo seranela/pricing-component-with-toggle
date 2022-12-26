@@ -6,10 +6,10 @@
 	--color-light-gray-blue: hsl(234, 14%, 74%);
 	--color-light-gray-blue-semi-transparent: hsl(234, 14%, 74%, 70%);
 	--color-white-semi-transparent: hsla(0, 0%, 100%, 40%);
-	--color-gray-blue: hsl(233, 13%, 49%);
+	--color-gray-blue: hsl(233, 13%, 47%);
 	--color-dark-gray-blue: hsl(232, 13%, 33%);
-	--gradient-start: hsl(236, 72%, 79%);
-	--gradient-end: hsl(237, 63%, 64%);
+	--gradient-start: hsl(237, 56%, 61%);
+	--gradient-end: hsl(237, 42%, 46%);
 
 	/* Fonts */
 	--font-main: 'Montserrat', sans-serif; /* Weights: 700 */
@@ -142,7 +142,7 @@ h1 {
 	display: inline-block;
 	text-align: center;
 	position: relative;
-	color: var(--color-light-gray-blue);
+	color: var(--color-gray-blue);
 }
 
 /* Cards */
@@ -239,20 +239,20 @@ h1 {
 }
 
 .link-button-dark {
-	background: var(--gradient-end);
+	background: var(--gradient-start);
 	color: white;
 }
 
 .link-button-dark:hover {
 	display: ;
 	background: transparent;
-	color: var(--gradient-end);
+	color: var(--gradient-start);
 	border: 1px solid var(--color-dark-gray-blue);
 }
 
 .link-button-light {
 	background: white;
-	color: var(--gradient-end);
+	color: var(--gradient-start);
 }
 
 .link-button-light:hover {
