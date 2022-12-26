@@ -143,6 +143,7 @@ h1 {
 	text-align: center;
 	position: relative;
 	color: var(--color-gray-blue);
+	margin: 0 1rem;
 }
 
 /* Cards */
